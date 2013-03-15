@@ -20,7 +20,7 @@
     [super viewDidLoad];
     
     //(1)
-    // self.mainImageView = [[ImageView alloc] initWithFrame:CGRectMake(0, 0, 320, 460) imageName:@"bigpic.jpg" flag:FALSE];
+     self.mainImageView = [[ImageView alloc] initWithFrame:CGRectMake(0, 0, 320, 460) imageName:@"bigpic.jpg" flag:FALSE];
     //(2)
     //self.mainImageView = [[ImageView alloc] initWithFrame:CGRectMake(0, 0, 320, 460) imageName:@"bigpic.jpg" flag:TRUE];
     
@@ -40,7 +40,7 @@
    // self.mainImageView = [[ImageView alloc] initWithFrame:CGRectMake(0, 0, 320, 160) imageName:@"wuli.jpg" flag:FALSE];
     
     //(9)
-     self.mainImageView = [[ImageView alloc] initWithFrame:CGRectMake(0, 0, 320, 460) imageName:@"wuli.jpg" flag:TRUE];
+    // self.mainImageView = [[ImageView alloc] initWithFrame:CGRectMake(0, 0, 320, 460) imageName:@"wuli.jpg" flag:TRUE];
     //(10)
     // self.mainImageView = [[ImageView alloc] initWithFrame:CGRectMake(0, 0, 320, 160) imageName:@"wuli.jpg" flag:TRUE];
     
